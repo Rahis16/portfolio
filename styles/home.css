@@ -27,9 +27,15 @@
 }
 
 .buttons button{
+    background: black;
+    color: white;
+    transition: all .3s;
+}
+
+.buttons button:hover{
     background: white;
     color: black;
-    
+    border: 1px black solid;
 }
 
 
@@ -188,6 +194,7 @@
     justify-content: center;
     align-items: center;
     transition: all .3s;
+    border: 1px solid black;
 }
 
 .soci-media .media i{

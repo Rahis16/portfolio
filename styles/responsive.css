@@ -3,6 +3,8 @@
         max-height: 600px;
         max-width: 600px;
     }
+
+    
 }
 
 @media(max-width: 1550px){
@@ -40,6 +42,11 @@
 
     .soci-media{
         gap: 5rem;
+    }
+
+    .soci-cont span{
+        font-size: 1rem;
+        top: -60px;
     }
 }
 
@@ -169,7 +176,13 @@
 
 @media(max-width: 1050px){
     .hamburger{
-        display: block;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
     }
 
     .menu{
