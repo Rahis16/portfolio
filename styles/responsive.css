@@ -286,5 +286,17 @@
         display: none;
     }
 
+    .stats-container{
+        padding: 30px 15px;
+    }
+
+    .portfolio{
+        padding: 1rem 0;
+    }
+
+    .projects-container{
+        padding: 30px 15px;
+    }
+
     
 }
