@@ -1,0 +1,10 @@
+/* About */
+
+.about{
+    height: 100vh;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

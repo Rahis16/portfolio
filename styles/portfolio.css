@@ -1,0 +1,43 @@
+/* portfolio */
+
+.portfolio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.portfolio .projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 42, 255, 0.185);
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.projects .card{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 42, 255, 0.185)   ;
+
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.desc{
+    text-align: center;
+    margin-top: 1.5rem;
+    width: 80%;
+}

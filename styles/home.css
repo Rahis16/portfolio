@@ -1,0 +1,209 @@
+/* section home */
+.home{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.home .hero{
+    width: 100%;    
+    height: 75vh;
+    border-radius: 10px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.buttons button{
+    background: white;
+    color: black;
+    
+}
+
+
+.profile {
+    width: 100%;
+    height: 100%;
+    max-width: 650px;
+    max-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%; /* Circular */
+    overflow: hidden;
+    order: 2;
+
+}
+
+.profile img {
+    height: 100%;
+    z-index: 1;
+
+}
+
+.imgbg {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background: linear-gradient(45deg, #000, #fff);
+    border-radius: 50%; /* Circular */
+    z-index: 1;
+    overflow: hidden;
+   
+}
+
+/* Rotating Border */
+.border-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(black 0%, black 25%, transparent 50%, transparent 50%, black 50%, black 50%, transparent 100%);
+    animation: rotateBorder 6s linear infinite;
+    z-index: 0;
+    pointer-events: none;
+}
+
+@keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+      
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+.hero .intro{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+  
+}
+
+.intro h1{
+    font-size: 4.5rem;
+}
+
+.intro span{
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.intro p{
+ 
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    width: fit-content;
+    padding-right: 3rem;
+}
+
+.intro .buttons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+    /* padding-left: 2rem; */
+    
+}
+
+.buttons button{
+    padding: 10px 20px;
+    border-radius: 2rem;
+    border: none;
+    font-weight: 600;
+    background: #000000;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+.soci-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    span{
+        display: none;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border-radius: 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-weight: 500;
+        transition: all .5s ;
+        position: absolute;
+        top: -65px;
+
+    }
+}
+
+
+.soci-cont:hover span{
+    display: block;
+}
+
+
+.soci-media{
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+    width: 100%;
+    gap: 8rem;
+    /* padding-left: 1rem; */
+    margin-top: 6rem;
+}
+
+.soci-media .media{
+    padding: 10px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.soci-media .media i{
+    font-size: 2rem;
+    color: white;
+}
+
+.media:hover{
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+    i{
+        color: black;
+    }
+
+    .soci-cont span{
+        display: block !important;
+    }
+}
