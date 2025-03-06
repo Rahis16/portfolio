@@ -41,7 +41,6 @@
        
     </header>
 
-
     <section class="home" id="home">
         <div class="hero">
             <div class="profile">
@@ -69,19 +68,64 @@
             </div>
         </div>
 
+
+        <div class="stats-container">
+            <!-- Achievements Stats Card -->
+            <div class="stats-card">
+                <h2>My Achievements</h2>
+                <div class="stats">
+                    <div class="stat"><i class='bx bxs-medal'></i> <span>100+ Projects Completed</span></div>
+                    <div class="stat"><i class='bx bxs-group'></i> <span>50K+ Lines of Code</span></div>
+                    <div class="stat"><i class='bx bxs-award'></i> <span>10+ Industry Certifications</span></div>
+                    <div class="stat"><i class='bx bxs-user-check'></i> <span>500+ Happy Clients</span></div>
+                    <div class="stat"><i class='bx bxs-brain'></i> <span>5+ Years of Experience</span></div>
+                </div>
+            </div>
+        
+            <!-- Latest Project Preview -->
+            <div class="project-preview">
+                <h2>Latest Project</h2>
+                <div class="project-image">
+                    <img src="p3.jpg" alt="Latest Project Screenshot">
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section class="portfolio" id="portfolio">
         <h1 class="title">My Projects</h1>
         <p class="desc">Here are the list of my some interesting projects Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, quia?</p>
-        <div class="projects">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-
+        <div class="projects-container">
+            <div class="project-card">
+                <!-- Left Side (Text & Links) -->
+                <div class="project-info">
+                    <h2 id="project-title">Project Title</h2>
+                    <p id="project-description">Short project description goes here. It highlights key features and tech stack used.</p>
+                    <div class="project-links">
+                        <a id="github-link" href="#" target="_blank">
+                            <i class='bx bxl-github'></i> GitHub
+                        </a>
+                        <a id="live-link" href="#" target="_blank">
+                            <i class='bx bx-right-arrow-alt'></i> Visit
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Right Side (Project Image) -->
+                <div class="project-image">
+                    <img id="project-img" src="pro1.jpg" alt="Project Screenshot">
+                </div>
+        
+                
+            </div>
+            <!-- Navigation Arrows -->
+            <div class="buttons2">
+                <button id="prev-project"><i class='bx bx-left-arrow'></i></button>
+                <button id="next-project"><i class='bx bx-right-arrow'></i></button>
+            </div>
         </div>
+        
     </section>
 
     <section class="about">
@@ -91,5 +135,6 @@
     </section>
 
     <script src="scripts/nav.js"></script>
+    <script src="scripts/portfolio.js"></script>
 </body>
 </html>
