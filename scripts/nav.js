@@ -15,3 +15,12 @@ hamburger.addEventListener('click', () => {
         menuOpen = true;
     }
 });
+
+document.addEventListener('click', (e) => {
+    if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+        menu.classList.remove('open');
+        menu.classList.add('close');
+        hamburger.classList.remove('active');
+        menuOpen = false;
+    }
+});

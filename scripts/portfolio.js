@@ -2,21 +2,21 @@ const projects = [
     {
         title: "Portfolio Website",
         description: "A personal portfolio built with HTML, CSS, and JavaScript.",
-        image: "pro1.jpg",
+        image: "images/pro1.jpg",
         github: "https://github.com/yourprofile/portfolio",
         live: "https://yourportfolio.com"
     },
     {
         title: "E-Commerce App",
         description: "A full-stack e-commerce platform with Django and React.",
-        image: "pro2.jpg",
+        image: "images/pro2.jpg",
         github: "https://github.com/yourprofile/ecommerce",
         live: "https://ecommerce.com"
     },
     {
         title: "Tournament App",
         description: "A gaming tournament platform with real-time leaderboards.",
-        image: "pro3.png",
+        image: "images/pro3.png",
         github: "https://github.com/yourprofile/tournament",
         live: "https://tournament.com"
     }

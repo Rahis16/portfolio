@@ -1,4 +1,13 @@
+@media(min-width: 1700px){
+    
+    .home{
+        margin-top: 7rem;
+    }
+
+    
+}
 @media(max-width: 1700px){
+    
     .profile{
         max-height: 500px;
         max-width: 500px;
@@ -86,6 +95,7 @@
 
     .intro p{
         font-size: 16px;
+        max-width: 650px;
       
     }
 
@@ -284,10 +294,17 @@
         gap: 4rem;
         margin-top: 4rem;
     }
+
+    .title{
+        font-size: 2rem;
+    }
 }
 
 
 @media(max-width: 768px){
+    .home{
+        margin-top: 4.5rem;
+    }
     header .logo{
         font-size: 1.7rem;
     }

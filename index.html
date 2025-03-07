@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/resume.css" />
     <link rel="stylesheet" href="styles/contact.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/services.css" />
     <link rel="stylesheet" href="styles/responsive.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -25,10 +26,10 @@
       <ul class="navs">
         <li class="nav"><a href="#home">Home</a></li>
         <li class="nav"><a href="#portfolio">Portfolio</a></li>
-        <li class="nav"><a href="#">About</a></li>
-        <li class="nav"><a href="#">Contact</a></li>
-        <li class="nav"><a href="#">Services</a></li>
-        <li class="nav"><a href="#">Resume</a></li>
+        <li class="nav"><a href="#resume">Resume</a></li>
+        <li class="nav"><a href="#about">About</a></li>
+        <li class="nav"><a href="#contact">Contact</a></li>
+        <li class="nav"><a href="#services">Services</a></li>
       </ul>
 
       <div class="hamburger">
@@ -40,10 +41,10 @@
       <ul class="menu">
         <li class="nav"><a href="#home">Home</a></li>
         <li class="nav"><a href="#portfolio">Portfolio</a></li>
-        <li class="nav"><a href="#">About</a></li>
-        <li class="nav"><a href="#">Contact</a></li>
-        <li class="nav"><a href="#">Services</a></li>
-        <li class="nav"><a href="#">Resume</a></li>
+        <li class="nav"><a href="#resume">Resume</a></li>
+        <li class="nav"><a href="#about">About</a></li>
+        <li class="nav"><a href="#contact">Contact</a></li>
+        <li class="nav"><a href="#services">Services</a></li>
       </ul>
     </header>
 
@@ -51,15 +52,17 @@
       <div class="hero">
         <div class="profile">
           <div class="imgbg"></div>
-          <img src="profile1.png" alt="" />
+          <img src="images/profile1.png" alt="" />
           <div class="border-animation"></div>
         </div>
 
         <div class="intro">
           <h1>SmartCoderRahis</h1>
           <span>MalnagCode CEO</span>
-          <p >
-            Mohammad Rahish Shekh – Passionate web developer specializing in scalable applications and user-friendly digital solutions. Always eager to innovate and adapt to new challenges.
+          <p>
+            Mohammad Rahish Shekh – Passionate web developer specializing in
+            scalable applications and user-friendly digital solutions. Always
+            eager to innovate and adapt to new challenges.
           </p>
 
           <div class="buttons">
@@ -118,7 +121,7 @@
         <div class="project-preview">
           <h2>Latest Project</h2>
           <div class="project-image1">
-            <img src="p3.jpg" alt="Latest Project Screenshot" />
+            <img src="images/p3.jpg" alt="Latest Project Screenshot" />
           </div>
         </div>
       </div>
@@ -127,7 +130,8 @@
     <section class="portfolio" id="portfolio">
       <h1 class="title">My Projects</h1>
       <p class="desc">
-        Here are some of my exciting projects that showcase my skills in web development and innovative solutions. Take a look!
+        Here are some of my exciting projects that showcase my skills in web
+        development and innovative solutions. Take a look!
       </p>
       <div class="projects-container">
         <div class="project-card">
@@ -161,19 +165,68 @@
       </div>
     </section>
 
-    <section class="about">
-      <img src="main_profile.png" alt="Profile Image" class="about-img" />
-      <div class="about-text">
-        <h1 class="title">About Me</h1>
-        <p class="about-content">
-            <b>Mohammad Rahish Shekh</b> (also known as <b>Rahis</b> and <b>SmartCoderRahis</b>) is passionate about technology, coding, and problem-solving. I thrive on challenges and love creating efficient solutions. Always exploring new ideas and pushing boundaries. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate cupiditate eum eius ut laboriosam delectus repudiandae, inventore repellendus iste error autem omnis vitae. Dolor saepe odit distinctio aspernatur vero velit dolorum deserunt cumque quidem eligendi modi eius, a, expedita alias voluptas repellat minima laboriosam tempora cum assumenda error temporibus? Quidem, sapiente? Repellendus eaque dolorum praesentium optio velit sapiente quis cum consequatur eveniet nulla placeat.
+    <section class="services" id="services">
+      <h1 class="title">Our Services</h1>
 
-        </p>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            We build responsive and efficient websites using the latest
+            technologies and best practices.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="bx bx-paint"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            Creating user-friendly designs that focus on a seamless experience
+            and visual appeal.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="bx bx-cloud"></i>
+          <h3>Cloud Solutions</h3>
+          <p>
+            We offer cloud-based solutions to help scale your business with
+            maximum security and reliability.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="bx bx-robot"></i>
+          <h3>AI Integration</h3>
+          <p>
+            We integrate artificial intelligence to optimize business processes
+            and enhance user interactions.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="bx bx-mobile-alt"></i>
+          <h3>Mobile App Development</h3>
+          <p>
+            Crafting mobile applications that offer great performance and an
+            intuitive user experience.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="bx bx-lock"></i>
+          <h3>Cybersecurity</h3>
+          <p>
+            We implement strong security measures to protect your digital assets
+            and sensitive data.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Resume Section -->
-    <section class="section resume">
+    <section class="section resume" id="resume">
       <div class="text-content">
         <h1 class="title">Resume</h1>
         <div class="resume-content">
@@ -213,10 +266,35 @@
           </div>
         </div>
       </div>
-      <img src="pro2.jpg" alt="Latest Work" class="work-img" />
+      <img src="images/pro2.jpg" alt="Latest Work" class="work-img" />
     </section>
 
-    <section class="contact-section">
+    <section class="about" id="about">
+      <img
+        src="images/main_profile.png"
+        alt="Profile Image"
+        class="about-img"
+      />
+      <div class="about-text">
+        <h1 class="title">About Me</h1>
+        <p class="about-content">
+          <b>Mohammad Rahish Shekh</b> (also known as <b>Rahis</b> and
+          <b>SmartCoderRahis</b>) is passionate about technology, coding, and
+          problem-solving. I thrive on challenges and love creating efficient
+          solutions. Always exploring new ideas and pushing boundaries. Lorem
+          ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+          cupiditate eum eius ut laboriosam delectus repudiandae, inventore
+          repellendus iste error autem omnis vitae. Dolor saepe odit distinctio
+          aspernatur vero velit dolorum deserunt cumque quidem eligendi modi
+          eius, a, expedita alias voluptas repellat minima laboriosam tempora
+          cum assumenda error temporibus? Quidem, sapiente? Repellendus eaque
+          dolorum praesentium optio velit sapiente quis cum consequatur eveniet
+          nulla placeat.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
       <!-- Contact Details -->
       <div class="contact-details">
         <h1 class="title">Contact Me</h1>
@@ -318,6 +396,7 @@
     </footer>
 
     <script src="scripts/nav.js"></script>
+    <script src="scripts/navigate.js"></script>
     <script src="scripts/portfolio.js"></script>
   </body>
 </html>
